@@ -1,0 +1,25 @@
+.achievers {
+	margin: 0px;
+	font-family: Roboto;
+	overflow: hidden;
+	background-color: $secondary-background-color;
+	border-top: 10px $heading-icon-color solid;
+	.achieversNews {
+		float: right;
+		width: 25%;
+	}
+	.content {
+		float: left;
+		width: 75%;
+		@media only screen and (max-width: 768px) {
+			width: 100%;
+		}
+	}
+	.achievers-news {
+		float: right;
+		width: 25%;
+		@media only screen and (max-width: 768px) {
+			width: 100%;
+		}
+	}
+}

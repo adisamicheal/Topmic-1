@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
+@media print {
+  *,  :after,  :before {
+    color: #000!important;
+    text-shadow: none!important;
+    background: transparent!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+  }
+}
+
+@font-face {
+  font-family: Glyphicons Halflings;
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"),url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"),url("../fonts/glyphicons-halflings-regular.woff") format("woff"),url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"),url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+
+*,:after,:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+[role=button] {
+  cursor: pointer;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  0% {
+    background-position: 40px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-o-keyframes progress-bar-stripes {
+  0% {
+    background-position: 40px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 40px 0;
+  }
+
+  to {
+    background-position: 0 0;
+  }
+}
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+#div4 {
+  clear: both;
+  height: 0;
+  transition: height 1s ease-in-out;
+}
+
+#div4:hover {
+  height: 28px;
+}
+
+#winsome-school {
+  min-height: 1000px;
+  width: 100%;
+  background: linear-gradient(#0078ad,#134a7d);
+}
+
+@media only screen and (max-width:940px) and (min-width:768px) {
+  #winsome-school {
+    min-height: 1600px;
+  }
+}
+
+@media only screen and (max-width:767px) and (min-width:320px) {
+  #winsome-school {
+    min-height: 1950px;
+  }
+}
+
+.head {
+  background-color: #e6e6e6;
+  border-top: 10px solid #fc3;
+}
+
+.head .school {
+  width: 70%;
+  float: left;
+  padding: 5%;
+}
+
+@media only screen and (max-width:768px) {
+  .head .school {
+    width: 100%;
+  }
+}
+
+.head:after {
+  content: "";
+  clear: both;
+  display: block;
+}

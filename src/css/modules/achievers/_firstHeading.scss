@@ -1,0 +1,28 @@
+.first {
+	width: 100%;
+	height: 300px;
+	float: left;
+	.firstPart {
+		width: 60%;
+		height: 200px;
+		margin: 50px auto auto 30px;
+		float: left;
+		@media (max-width: 768px) {
+			width: 80%;
+		}
+		.h2 {
+			@include H3('', $black);
+			font-size: 30px;
+			@media only screen and (max-width: 768px) {
+				font-size: 24px;
+			}
+		}
+		.box {
+			@include heading-icon();
+		}
+		p {
+			text-align: justify;
+			margin-top: 7%;
+		}
+	}
+}

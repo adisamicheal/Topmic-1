@@ -1,0 +1,52 @@
+#staff {
+	background-color: $secondary-background-color;
+	.staff-app {
+		//margin-top:0px;
+		width: 100%;
+		border-top: 10px $heading-icon-color solid;
+		background-color: $secondary-background-color;
+		.staff {
+			width: 75%;
+			background-color: $secondary-background-color;
+			min-height: 750px;
+			clear: both;
+			float: left;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+			}
+			.heading {
+				h2 {
+					@include H2(left, $black);
+					font-size: 30px;
+					@media only screen and (max-width: 768px) {
+						font-size: 24px;
+					}
+				}
+
+				margin-left: 10%;
+				position: relative;
+
+				.box {
+					@include heading-icon();
+				}
+			}
+
+			.paragraph {
+				width: 65%;
+				margin-top: 4%;
+				margin-left: 6%;
+				p {
+					margin-top: 25px;
+					margin-left: 5%;
+				}
+			}
+		}
+		.staff-news {
+			float: right;
+			width: 25%;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+			}
+		}
+	}
+}

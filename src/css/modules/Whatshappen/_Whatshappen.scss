@@ -1,0 +1,185 @@
+$career-resp-screen: 768px;
+
+//scss start
+
+#sec-2 {
+    // height: 840px;
+    @include image('../images/chem-formula-pattern.jpg');
+    padding: 60px 0 60px 0;
+    // bottom-margin: 50px;
+
+    .wraper {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0 0px 20px 10px;
+        //border:1px red solid;
+        @media only screen and (max-width : 470px) {
+          width: 100%;
+          padding: 0 0px 20px 0px;
+        }
+        .des {
+            //width: 80%;
+            margin: 0 auto;
+            //background-color: grey;
+
+            h2 {
+                font-size: 25px;
+                margin: 0px;
+                font-weight: 700;
+                text-align: center;
+                padding: 40px 0px 35px 0px;
+                box-sizing: border-box;
+                @media only screen and (min-width: $career-resp-screen) {
+                    font-size: 40px;
+                    padding: 60px 0px 40px 0px;
+                    font-weight: 600;
+                }
+            }
+
+            span {
+                text-align: center;
+                display: block;
+                font-size: 16px;
+                font-weight: lighter;
+                padding-bottom: 35px;
+                @media only screen and (min-width: $career-resp-screen) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .slide-show {
+            // height: 540px;
+            //background-color: lightblue;
+            clear: both;
+            width: 100%;
+
+            .arrows {
+                width: 8%;
+                height: 480px;
+                //background-color: green;
+                display: inline-block;
+            }
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+
+            .arrow {
+                border-top: 2px $secondary-color solid;
+                border-left: 2px $secondary-color solid;
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+                margin: 210px 0;
+                margin-left: 15px;
+                cursor: pointer;
+                @media only screen and (max-width : 470px) {
+                  height: 30px;
+                  width: 30px;
+                }
+                &:focus {
+                    outline: 0;
+                }
+                &:active {
+                    outline: 0;
+                    border-top: 4px $secondary-color solid;
+                    border-left: 4px $secondary-color solid;
+                }
+                @media only screen and (min-width: $career-resp-screen) {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .previous {
+                transform: rotate(-45deg);
+            }
+            .next {
+                transform: rotate(135deg);
+                float: right;
+                margin-right: 15px;
+            }
+
+            .whatsHappen-card {
+                width: 84%;
+                // height: 480px;
+                float: left;
+                .wh-normal-view {
+                    display: none;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+                .wh-responsive-view {
+                    display: block;
+                    margin: 0 auto;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        display: none;
+                    }
+                }
+
+                .whatshappen {
+                    // height: 480px;
+                    width: 90%;
+                    border: 1px $accent-color solid;
+                    box-sizing: border-box;
+                    margin: 0 auto;
+                    @media only screen and (min-width: $career-resp-screen) {
+                        width: 48%;
+                        margin: 0;
+                    }
+                    .img {
+                        height: 280px;
+                        width: 100%;
+
+                        overflow: hidden;
+                        img {
+                            height: 280px;
+                            width: 100%;
+                            object-fit: cover;
+                            &:hover {
+                                height: 330px;
+                                width: 115;
+                            }
+                        }
+                    }
+                    .img-des {
+                        // height: 198px;
+
+                        width: 100%;
+                        padding: 25px 15px 15px 15px;
+                        box-shadow: 0px 5px 8px $accent-color;
+                        background-color: white;
+                        box-sizing: border-box;
+
+                        h3 {
+                            margin: 0px;
+                            color: $primary-color;
+                            font-family: $font-family;
+                        }
+                        p {
+                            padding-top: 18px;
+                            font-size: 18px;
+                            text-align: justify;
+                            color: black;
+                            font-family: $font-family;
+                            @media only screen and (max-width: 450px) {
+                                padding-top: 14px;
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+            .card-0 {
+                float: left;
+            }
+            .card-1 {
+                float: right;
+            }
+        }
+    }
+}

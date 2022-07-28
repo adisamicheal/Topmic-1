@@ -1,0 +1,41 @@
+#winsome-school {
+  min-height: 1000px;
+  width: 100%;
+  background: linear-gradient($primary-color, $secondary-color);
+  .winsome-school-heading {
+    @include H2(center, $white);
+  }
+  .winsome-school-hidden-heading {
+    @include H2(center, $primary-color);
+  }
+}
+
+// Styles smaller than mobile/tablet
+
+@media only screen 
+and (max-width: 940px)
+and (min-width: 768px) {
+  #winsome-school {
+    min-height: 1600px;
+    .winsome-school-heading {
+      @include H2Mobile(center, $white);
+    }
+    .winsome-school-hidden-heading {
+      @include H2Mobile(center, $primary-color);
+    }
+  }
+}
+
+@media only screen 
+and (max-width: 767px)
+and (min-width: 320px) {
+  #winsome-school {
+    min-height: 1950px;
+    .winsome-school-heading {
+      @include H2Mobile(center, $white);
+    }
+    .winsome-school-hidden-heading {
+      @include H2Mobile(center, $primary-color);
+    }
+  }
+}

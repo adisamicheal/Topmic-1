@@ -1,0 +1,58 @@
+.main-portion {
+    width: 100%;
+    min-height: 800px;
+    float: left;
+    background-color: #e6e6e6;
+    .head {
+        background-color: #e6e6e6;
+        width: 70%;
+        float: left;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        .senior-h2 {
+            @include H3(left, $black);
+            font-size: 30px;
+            @media only screen and (max-width: 768px) {
+                font-size: 24px;
+            }
+        }
+        p {
+            line-height: 180%;
+            font-size: 14px;
+            letter-spacing: 0.48px;
+        }
+        .box {
+            @include heading-icon();
+        }
+        .school {
+            width: 80%;
+            float: left;
+            padding: 5%;
+            p {
+                width: 83%;
+            }
+        }
+        .school img {
+            padding-top: 5%;
+        }
+        .col1 {
+            width: 70%;
+            float: left;
+            padding: 5%;
+            .mission {
+                padding-top: 5%;
+            }
+        }
+    }
+    .News-container {
+        float: right;
+        border-top: 10px $heading-icon-color solid;
+        width: 30%;
+        @media only screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+

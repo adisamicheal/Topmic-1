@@ -1,0 +1,106 @@
+
+.discover-container {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  justify-content: flex-start;
+  @media only screen and (max-width: 628px) {
+    height: 260px;
+  }
+  .header {
+    height: 80px;
+    background-color: #fdba26;
+    //width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+     @media only screen and (max-width: 628px) {
+      height: 55px;
+    }
+    .header-content {
+      font-size: 35px;
+      @media only screen and (max-width: 628px) {
+      font-size: 12px
+    }
+      h3 {
+        margin-top: 30px;
+        opacity: 0.8;
+        @media only screen and (max-width: 628px) {
+          margin-top:15px;
+        }
+      }
+    }
+  }
+  .content {
+    height: 300px;
+    position: relative;
+    flex-grow: 5;
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 628px) {
+      height: 200px;
+    }
+
+    .first {
+      background-image: url('./images/events.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex-basis: 33.3333%;
+      @media only screen and (max-width: 628px) {
+        height: 220px;
+      }
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+    .second {
+      background-image: url('./images/faculty-staff.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex-basis: 33.3333%;
+      @media only screen and (max-width: 628px) {
+        height: 220px;
+      }
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+    .third {
+      background-image: url('./images/policies-procedures.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex-basis: 33.3333%;
+      margin-right: auto;
+      @media only screen and (max-width: 628px) {
+       height: 220px;
+      }
+      .footer {
+        @extend .footer-discover;
+      }
+    }
+  }
+}
+.footer-discover {
+  height: 70px;
+  color: white;
+  background-color: rgba(24, 24, 24, 0.6);
+  width: 33.3333%;
+  cursor: pointer;
+  position: absolute;
+  top: 230px;
+  font-size: 25px;
+  @media only screen and (max-width: 628px) {
+        height:50px; 
+        top:170px;
+  }
+  h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    @media only screen and (max-width: 628px) {
+        font-size: 12px;
+      }
+  }
+}

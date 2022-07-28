@@ -1,0 +1,136 @@
+$contact-body-color: #e6e6e6;
+$border-color: #737373;
+$button-color: #737373;
+$p-color: #737373;
+
+#contact {
+	background-color: $secondary-background-color;
+}
+.contact {
+	border-top: 10px $heading-icon-color solid;
+	padding: 20px 50px 50px 50px;
+	background-color: $secondary-background-color;
+	width: 75%;
+	float: left;
+	@media only screen and(max-width: 768px) {
+		width: 100%;
+		padding: 20px 20px 50px 20px;
+	}
+	.row {
+		margin: 0;
+		padding: 0;
+
+		// width: 1000px;
+		// width: 350px;
+		.contactInfo {
+			width: 50%;
+			float: left;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+			}
+			.contactH2 {
+				@include H3('', $black);
+				font-size: 30px;
+				@media only screen and (max-width: 768px) {
+					font-size: 24px;
+				}
+			}
+			.yellowBox {
+				@include heading-icon();
+			}
+			.contactP {
+			}
+		}
+
+		.location {
+			width: 50%;
+			padding-top: 100px;
+			padding-left: 60px;
+			float: left;
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+				padding-left: 0px;
+			}
+			.glyphicon {
+				color: #ffcc33;
+				margin-right: 10px;
+				// float: right;
+				// width: 350;
+				// position: absolute;
+			}
+			.address {
+				padding-left: 0px;
+				width: 70%;
+				margin: 0px auto;
+				@media only screen and (max-width: 768px) {
+					width: 100%;
+					margin: 10px 0px 0px 20px;
+				}
+			}
+		}
+	}
+
+	.contactUs {
+		.contactForm {
+			margin-top: 100px;
+			.contactH2 {
+				@include H3('', $black);
+				font-size: 30px;
+				@media only screen and (max-width: 768px) {
+					font-size: 24px;
+				}
+			}
+			.yellowBox {
+				@include heading-icon();
+			}
+			.userInfo {
+				input {
+					margin: 15px 0px;
+					border: 2px $border-color solid;
+					width: 70%;
+					height: 60px;
+					font-size: 20px;
+					text-indent: 18px;
+					background-color: $contact-body-color;
+					@media only screen and (max-width: 768px) {
+						width: 100%;
+					}
+					&::placeholder {
+						color: $placeholder-color;
+						opacity: 1;
+					}
+				}
+				textarea {
+					margin: 15px 0px;
+					border: 2px $border-color solid;
+					width: 70%;
+					height: 350px;
+					font-size: 20px;
+					text-indent: 18px;
+					background-color: $contact-body-color;
+					@media only screen and (max-width: 768px) {
+						width: 100%;
+					}
+					&::placeholder {
+						color: $placeholder-color;
+						opacity: 1;
+					}
+				}
+				.contact-submit-btn {
+					@include secondary-btn();
+					float: left;
+				}
+			}
+		}
+	}
+}
+
+.contact-news {
+	float: right;
+	width: 25%;
+	border-top: 10px $heading-icon-color solid;
+	@media only screen and (max-width: 768px) {
+		width: 100%;
+		border-top: none;
+	}
+}
