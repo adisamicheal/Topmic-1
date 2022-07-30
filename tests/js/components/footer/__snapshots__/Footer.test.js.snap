@@ -40,7 +40,7 @@ ShallowWrapper {
               <p
                 className="footer-info"
               >
-                Email: info@winsome.ed.pk
+                Email: topmic.schools@yahoo.com
               </p>
               <p
                 className="footer-info"
@@ -212,7 +212,7 @@ ShallowWrapper {
               <p
                 className="footer-info"
               >
-                Email: info@winsome.ed.pk
+                Email: topmic.schools@yahoo.com
               </p>
               <p
                 className="footer-info"
@@ -321,7 +321,7 @@ ShallowWrapper {
                 <p
                   className="footer-info"
                 >
-                  Email: info@winsome.ed.pk
+                  Email: topmic.schools@yahoo.com
                 </p>
                 <p
                   className="footer-info"
@@ -428,7 +428,7 @@ ShallowWrapper {
                   <p
                     className="footer-info"
                   >
-                    Email: info@winsome.ed.pk
+                    Email: topmic.schools@yahoo.com
                   </p>,
                   <p
                     className="footer-info"
@@ -475,11 +475,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "Email: info@winsome.ed.pk",
+                    "children": "Email: topmic.schools@yahoo.com",
                     "className": "footer-info",
                   },
                   "ref": null,
-                  "rendered": "Email: info@winsome.ed.pk",
+                  "rendered": "Email: topmic.schools@yahoo.com",
                   "type": "p",
                 },
                 Object {
@@ -1103,7 +1103,7 @@ ShallowWrapper {
                 <p
                   className="footer-info"
                 >
-                  Email: info@winsome.ed.pk
+                  Email: topmic.schools@yahoo.com
                 </p>
                 <p
                   className="footer-info"
@@ -1275,7 +1275,7 @@ ShallowWrapper {
                 <p
                   className="footer-info"
                 >
-                  Email: info@winsome.ed.pk
+                  Email: topmic.schools@yahoo.com
                 </p>
                 <p
                   className="footer-info"
@@ -1384,7 +1384,7 @@ ShallowWrapper {
                   <p
                     className="footer-info"
                   >
-                    Email: info@winsome.ed.pk
+                    Email: topmic.schools@yahoo.com
                   </p>
                   <p
                     className="footer-info"
@@ -1491,7 +1491,7 @@ ShallowWrapper {
                     <p
                       className="footer-info"
                     >
-                      Email: info@winsome.ed.pk
+                      Email: topmic.schools@yahoo.com
                     </p>,
                     <p
                       className="footer-info"
@@ -1538,11 +1538,11 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "host",
                     "props": Object {
-                      "children": "Email: info@winsome.ed.pk",
+                      "children": "Email: topmic.schools@yahoo.com",
                       "className": "footer-info",
                     },
                     "ref": null,
-                    "rendered": "Email: info@winsome.ed.pk",
+                    "rendered": "Email: topmic.schools@yahoo.com",
                     "type": "p",
                   },
                   Object {

@@ -15,7 +15,7 @@ export default class Policies extends Component {
               <h3 className="policies-heading">Policies & Procedures</h3>
               <div className="box" />
               <p className="policies-paragraph">
-                Please find below all our policies for Winsome School System.
+                Please find below all our policies for Topmic International Schools.
               </p>
               <h4 className="policy-name-heading">Admissions Policy</h4>
               <p className="policy-name-paragraph">Download PDF</p>

@@ -12,7 +12,7 @@ export default class career extends Component {
         <div id="career">
           <div className="content-1">
             <div className="content-box">
-              <h3>Working at Winsome </h3>
+              <h3>Working at Topmic </h3>
               <div className="yellow-icon" />
               <p>
                 We pride ourselves on the best support and care of our academics
@@ -64,9 +64,7 @@ export default class career extends Component {
                 <input type="text" placeholder="Date Of Birth" />
                 <input type="text" placeholder="Address" />
                 <input type="text" placeholder="City" />
-                <input type="text" placeholder="Provivce/Religion" />
                 <input type="text" placeholder="Country" />
-                <input type="text" placeholder="Phone Landline" />
                 <input type="text" placeholder="Phone Mobile" />
                 <input type="text" placeholder="Email" />
                 <button className="career-submit-button">Submit</button>

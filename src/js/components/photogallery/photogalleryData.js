@@ -1,6 +1,6 @@
 const images = [
 	{
-		path: '../images/Hero.jpg',
+		path: '../images/Hero.jpeg',
 		caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
 		key: 1
 	},
@@ -16,7 +16,7 @@ const images = [
 		key: 3
 	},
 	{
-		path: '../images/IMG_9463.JPG',
+		path: '../images/IMG_9463.JPEG',
 		caption: 'deserunt mollit anim id est laborum.',
 		key: 4
 	}

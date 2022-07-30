@@ -48,7 +48,7 @@ export default class Contact extends React.Component {
               </div>
               <div className="col-md-5 address">
                 <p>
-                  <b>Winsome Radical School</b>
+                  <b>Topmic International Schools</b>
                 </p>
                 <p>Harestone Valley Road</p>
                 <p>Caterham</p>

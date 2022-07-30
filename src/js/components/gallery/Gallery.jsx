@@ -14,7 +14,7 @@ class Gallery extends React.Component {
           className="imagesDiv"
           style={{ backgroundImage: `url(${bgimage})` }}
         >
-          <h3 className="text-center">Life At Winsome</h3>
+          <h3 className="text-center">Life At Topmic</h3>
           <div className="box">
             <div className="row firstRow">
               <div className="col-md-6">

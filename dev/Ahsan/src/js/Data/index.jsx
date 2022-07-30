@@ -31,7 +31,7 @@ const data = [
 	},
 	{
 		id: Math.random(),
-		img: 'IMG_9463.jpg',
+		img: 'IMG_9463.jpeg',
 		title: 'BLOG TITLE6',
 		description: 'Congratulations to our Year 6 boys (along with 3 of our Year 5’s) who won the WACSSA Division 1 Football Tournament today.' 
 	}

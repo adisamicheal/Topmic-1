@@ -5,7 +5,7 @@ const promoData = [
     promoDataOne: {
       promoCardId: 1,
       title: "Our School",
-      description: "We would like to extend a warm welcome to Winsome School System and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
+      description: "We would like to extend a warm welcome to Topmic International Schools and take a few moments to share our vision with you. We are a healthy, thriving educational community catering to students in Childcare through to Year 10.The school has enjoyed a strong academic achievement record, and an engaging, varied curriculum. The school’s co-curricular activities and unique programs all reinforce our desire to develop the whole child.",
       imageLink: "./img/our-school-photo.jpg",
       readMoreLink: "",
       imageDirection: "left"
