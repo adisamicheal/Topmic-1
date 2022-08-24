@@ -34,7 +34,7 @@ class ResponsiveNav extends React.Component {
 			<div className="responsive-header">
 				<img
 					className="header-logo"
-					src="./images/logo.png"
+					src="./images/logo.jpg"
 					alt="header logo is not available"
 				/>
 				<div

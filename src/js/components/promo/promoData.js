@@ -1,7 +1,7 @@
 const promoData = [
   {
     id: 1,
-    heading: "Winsome Radical School",
+    heading: "Topmic International Schools",
     promoDataOne: {
       promoCardId: 1,
       title: "Our School",

@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
         <div className="footer">
           <div className="wrapper">
             <div className="column">
-              <img className="footer-logo" src="./images/logo.png" />
+              <img className="footer-logo" src="./images/logo.jpg" />
               <p className="footer-info">Phone: +92 42 34567890</p>
               <p className="footer-info">Email: info@winsome.ed.pk</p>
               <p className="footer-info">Address: 12-C Madican Block,</p>

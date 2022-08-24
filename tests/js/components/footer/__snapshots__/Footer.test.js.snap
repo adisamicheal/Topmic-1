@@ -30,7 +30,7 @@ ShallowWrapper {
               <img
                 alt="Winsome Footer logo"
                 className="footer-logo"
-                src="./images/logo.png"
+                src="./images/logo.jpg"
               />
               <p
                 className="footer-info"
@@ -202,7 +202,7 @@ ShallowWrapper {
               <img
                 alt="Winsome Footer logo"
                 className="footer-logo"
-                src="./images/logo.png"
+                src="./images/logo.jpg"
               />
               <p
                 className="footer-info"
@@ -311,7 +311,7 @@ ShallowWrapper {
                 <img
                   alt="Winsome Footer logo"
                   className="footer-logo"
-                  src="./images/logo.png"
+                  src="./images/logo.jpg"
                 />
                 <p
                   className="footer-info"
@@ -418,7 +418,7 @@ ShallowWrapper {
                   <img
                     alt="Winsome Footer logo"
                     className="footer-logo"
-                    src="./images/logo.png"
+                    src="./images/logo.jpg"
                   />,
                   <p
                     className="footer-info"
@@ -452,7 +452,7 @@ ShallowWrapper {
                   "props": Object {
                     "alt": "Winsome Footer logo",
                     "className": "footer-logo",
-                    "src": "./images/logo.png",
+                    "src": "./images/logo.jpg",
                   },
                   "ref": null,
                   "rendered": null,
@@ -1093,7 +1093,7 @@ ShallowWrapper {
                 <img
                   alt="Winsome Footer logo"
                   className="footer-logo"
-                  src="./images/logo.png"
+                  src="./images/logo.jpg"
                 />
                 <p
                   className="footer-info"
@@ -1265,7 +1265,7 @@ ShallowWrapper {
                 <img
                   alt="Winsome Footer logo"
                   className="footer-logo"
-                  src="./images/logo.png"
+                  src="./images/logo.jpg"
                 />
                 <p
                   className="footer-info"
@@ -1374,7 +1374,7 @@ ShallowWrapper {
                   <img
                     alt="Winsome Footer logo"
                     className="footer-logo"
-                    src="./images/logo.png"
+                    src="./images/logo.jpg"
                   />
                   <p
                     className="footer-info"
@@ -1481,7 +1481,7 @@ ShallowWrapper {
                     <img
                       alt="Winsome Footer logo"
                       className="footer-logo"
-                      src="./images/logo.png"
+                      src="./images/logo.jpg"
                     />,
                     <p
                       className="footer-info"
@@ -1515,7 +1515,7 @@ ShallowWrapper {
                     "props": Object {
                       "alt": "Winsome Footer logo",
                       "className": "footer-logo",
-                      "src": "./images/logo.png",
+                      "src": "./images/logo.jpg",
                     },
                     "ref": null,
                     "rendered": null,

@@ -7,7 +7,7 @@ export default class Footer extends React.Component{
 				<div className="row about">
 					<div className="col-md-4">
 						<h4 className="col-md1">
-							<img src="./images/logo.png" />
+							<img src="./images/logo.jpg" />
 						</h4>
 						<p className="contactDetails"><b>Phone:</b>0340-7101829</p>
 						<p><b>Email:</b> ahmad.ramay4@gmail.com</p>

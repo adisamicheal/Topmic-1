@@ -15,7 +15,7 @@ import dataArray from './dataGiver';
   }) 
   return (
    <div className='wrapper'>
-  <img className="header-logo" src="./images/logo.png" />
+  <img className="header-logo" src="./images/logo.jpg" />
     <div className='my-nav'>
       {loginToRender}
       <Navbar dataArray={dataArray}/> 

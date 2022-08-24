@@ -35,7 +35,7 @@ export default class Contact extends React.Component{
 					<p><span className ='glyphicon glyphicon-map-marker'></span></p>
 					</div>
 					<div className="col-md-5 address">
-						<p><b>Winsome Radical School</b></p>
+						<p><b>Topmic International Schools</b></p>
 						<p>Harestone Valley Road</p>
 						<p>Caterham</p>
 						<p>Surrey CR3 6YA</p>

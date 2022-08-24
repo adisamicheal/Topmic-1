@@ -25,7 +25,7 @@ export default class Juniors extends React.Component {
          <div className="textimage">
          <div className="pdivs">        
           <p>
-            At Winsome we believe in providing a dual approach to education which
+            At Topmic we believe in providing a dual approach to education which
             supports every child to become condent learners. For us, the quality of
             relationship developed with the child has a direct link to the eective practice
             of teaching the children and guiding them to discover new things and think

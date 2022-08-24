@@ -21,7 +21,7 @@ const Nav = ({ headerData }) => {
       <div className="header-wrapper">
         <img
           className="header-logo"
-          src="./images/logo.png"
+          src="./images/logo.jpg"
           alt="header logo is not available!"
         />
         <div className="my-nav">
