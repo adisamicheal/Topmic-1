@@ -1,3 +1,3 @@
 # winsome
-Winsome School website on Reactjs
+Topmic International Schools website on Reactjs
 
