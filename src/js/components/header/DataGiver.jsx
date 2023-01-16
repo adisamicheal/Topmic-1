@@ -117,19 +117,19 @@ const dataArray = [
 					},
 					{
 						id: '2',
-						value: 'junior',
+						value: 'KG/Prep & Nursery',
 						addressValue: 'junior',
 						styles: ''
 					},
 					{
 						id: '3',
-						value: 'middle',
+						value: 'Primary',
 						addressValue: 'middle',
 						styles: ''
 					},
 					{
 						id: '4',
-						value: 'senior',
+						value: 'College',
 						addressValue: 'senior',
 						styles: ''
 					}

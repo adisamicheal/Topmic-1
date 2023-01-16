@@ -21,18 +21,18 @@ const Footer = () => (
         </div>
         <div className="column-text">
           <h4 className="footer-buttons">OUR SCHOOL</h4>
-          <h4 className="footer-buttons">JUNIOR</h4>
-          <h4 className="footer-buttons">MIDDLE</h4>
-          <h4 className="footer-buttons">SENIOR</h4>
+          <h4 className="footer-buttons">KG/PREP</h4>
+          <h4 className="footer-buttons">NURSERY</h4>
+          <h4 className="footer-buttons">PRIMARY</h4>
+          <h4 className="footer-buttons">COLLEGE</h4>
+
         </div>
         <div className="column-text">
           <h4 className="footer-buttons">ADMISSIONS</h4>
           <h4 className="footer-buttons">STAFF & FACULTY</h4>
           <h4 className="footer-buttons">NEWS/EVENTS</h4>
-          <h4 className="footer-buttons">EDUCATION BLOG</h4>
         </div>
         <div className="column-text">
-          <h4 className="footer-buttons">POLICIES</h4>
           <h4 className="footer-buttons">CAREERS</h4>
           <h4 className="footer-buttons">RESOURCE CENTER</h4>
         </div>

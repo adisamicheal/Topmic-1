@@ -79,31 +79,14 @@ export default class App extends React.Component {
             <h2>School Board</h2>
             <div className="box" />
 
-            <h5>AMMAR ALVI</h5>
+            <h5>MRS ...... </h5>
             <p>
-              Principal / Head of Senior Classes Mechanical Engineering <br />
-              <p className="honor">Honors:</p>
-              UET,Lahore <br />
-              MBA HR - IBA Punjab University, Lahore <br />
-              Leadership Roles at SNGPL, ICI, Packages (PVT.)
+              Principal  <br />
             </p>
 
-            <h5>FREEHA ALVI</h5>
+            <h5>MR ...... </h5>
             <p>
-              Head of Middle Classes Mechanical Engineering <br />
-              <p className="honor">Honors:</p>
-              UET,Lahore <br />
-              MBA HR - IBA Punjab University, Lahore <br />
-              Leadership Roles at SNGPL, ICI, Packages (PVT.)
-            </p>
-
-            <h5>SANA ALVI</h5>
-            <p>
-              Head of Junior Classes <br />
-              <p className="honor">Honors:</p>
-              MS. Engish Literature - Punjab University, Lahore <br />
-              Education preparation Institute, Seminole State College <br />
-              of Florida, USA
+              PTA Chairman  <br />
             </p>
           </div>
           <div className="News-container news-hide">

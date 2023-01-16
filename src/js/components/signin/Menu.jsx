@@ -11,9 +11,9 @@ const Menu = () => (
 				<li>News</li>
 				<li>Events</li>
 				<li>Contact</li>
-				<li>Junior</li>
-				<li>Middle</li>
-				<li>Senior</li>
+				<li>Nursery</li>
+				<li>Primary</li>
+				<li>College</li>
 			</ul>
 		</div>
 	</div>
