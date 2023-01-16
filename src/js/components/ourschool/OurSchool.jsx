@@ -1,5 +1,5 @@
 import React from 'react';
-import Discover from '../discover/Discover';
+
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
@@ -113,7 +113,6 @@ export default class App extends React.Component {
         <div className="News-container news-hide-2">
             <News />
         </div>
-        <Discover />
       </div>
     );
   }

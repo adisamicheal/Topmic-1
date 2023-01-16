@@ -1,5 +1,4 @@
 import React from 'react';
-import Discover from '../discover/Discover';
 import images from './photogalleryData';
 import Hero from '../hero/HeroImage';
 
@@ -28,7 +27,6 @@ const Gallery = () => (
       </div>
       <div className="showImages">{showImages()}</div>
     </div>
-    <Discover />
   </div>
 );
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
@@ -40,9 +39,6 @@ export const Junior = ({ juniorData }) => (
     </div>
     <div className="junior-news">
       <News />
-    </div>
-    <div className="clear">
-      <Discover />
     </div>
   </div>
 );

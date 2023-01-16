@@ -1,5 +1,4 @@
 import React from 'react';
-import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
@@ -50,10 +49,6 @@ export default class Staff extends React.Component {
           <div className="staff-news">
             <News />
           </div>
-        </div>
-
-        <div className="clear">
-          <Discover />
         </div>
       </div>
     );

@@ -1,7 +1,6 @@
 import React from 'react';
 import dataForEvents from './DataEvents';
 import EventsSection from './EventsSection';
-import Discover from '../discover/Discover';
 import News from '../News/News';
 import Hero from '../hero/HeroImage';
 
@@ -36,9 +35,6 @@ const Events = () => {
         <div className="events-news">
           <News />
         </div>
-      </div>
-      <div className="clear">
-        <Discover />
       </div>
     </div>
   );

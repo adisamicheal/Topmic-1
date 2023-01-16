@@ -15,7 +15,6 @@ import Header from './header';
 // import Blog from './Whatshappen/Blog';
 // import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
-import Career from './career/Career';
 import Home from './Home/Home';
 import Junior from './Junior/Junior';
 import Middle from './middle/Middle';
@@ -46,7 +45,6 @@ class App extends Component {
         <div className="app">
           <Header />
           <Switch>
-            <Route exact path="/career" component={Career} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/sign-in" component={SignIn} />
             <Route exact path="/junior" component={Junior} />

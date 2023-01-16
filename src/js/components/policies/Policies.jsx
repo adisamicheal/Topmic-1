@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Discover from '../discover/Discover';
 import Hero from '../hero/HeroImage';
 import News from '../News/News';
 
@@ -31,9 +30,6 @@ export default class Policies extends Component {
           <div className="policies-news">
             <News />
           </div>
-        </div>
-        <div className="clear">
-          <Discover />
         </div>
       </div>
     );

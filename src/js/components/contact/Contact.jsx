@@ -1,12 +1,11 @@
-import React from 'react';
-import Discover from '../discover/Discover';
-import News from '../News/News';
-import Hero from '../hero/HeroImage';
+import React from "react";
+import News from "../News/News";
+import Hero from "../hero/HeroImage";
 
 export default class Contact extends React.Component {
   constructor() {
     super();
-    this.state = { value: '' };
+    this.state = { value: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -20,7 +19,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div id="contact">
-        <Hero style={'contact-img'} />
+        <Hero style={"contact-img"} />
         <div className="contact">
           <div className="row">
             <div className="col-md-6 contactInfo">
@@ -32,12 +31,6 @@ export default class Contact extends React.Component {
               </p>
               <br />
               <br />
-              <p className="contactP">
-                <b>Pakistan:</b> 01883 343028
-              </p>
-              <p className="contactP">
-                <b>International:</b> +44 1883 343028
-              </p>
             </div>
 
             <div className="col-md-6 location">
@@ -50,9 +43,9 @@ export default class Contact extends React.Component {
                 <p>
                   <b>Topmic International Schools</b>
                 </p>
-                <p>Harestone Valley Road</p>
-                <p>Caterham</p>
-                <p>Surrey CR3 6YA</p>
+                <p>Block 9 </p>
+                <p>Adenowo Mabadeje Drive, Valley View Estate</p>
+                <p>Off Ebute-Igbogbo Road, Ikorodu. Lagos State Nigeria</p>
               </div>
             </div>
           </div>
@@ -90,9 +83,6 @@ export default class Contact extends React.Component {
         </div>
         <div className="contact-news">
           <News />
-        </div>
-        <div className="clear">
-          <Discover />
         </div>
       </div>
     );

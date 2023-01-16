@@ -25,8 +25,7 @@ export default class Contact extends React.Component{
 						<div className='yellowBox'></div>
 						<p className='contactP'>We are always happy to answer questions about life at School. Please do not hesitate to get in touch by telephone or email</p>
 						<br></br>
-						<p className='contactP'><b>Pakistan:</b> 01883 343028</p>
-						<p className='contactP'><b>International:</b> +44 1883 343028</p>
+						<p className='contactP'><b>Nigeria:</b> 07068263131</p>
 
 				</div>
 				
@@ -36,9 +35,9 @@ export default class Contact extends React.Component{
 					</div>
 					<div className="col-md-5 address">
 						<p><b>Topmic International Schools</b></p>
-						<p>Harestone Valley Road</p>
-						<p>Caterham</p>
-						<p>Surrey CR3 6YA</p>
+						<p>Block 9 </p>
+						<p>Adenowo Mabadeje Drive, Valley View Estate</p>
+						<p>Off Ebute-Igbogbo Road, Ikorodu. Lagos State Nigeria</p>
 					</div>
 				</div>
 			</div>
