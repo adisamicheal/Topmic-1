@@ -4,8 +4,8 @@ let dataArray = [
     loginData: [
 
 
-      ['SIGN OUT', 'glyphicon glyphicon-log-out'],
-      ['SIGN IN', 'glyphicon glyphicon-log-in']
+      // ['SIGN OUT', 'glyphicon glyphicon-log-out'],
+      // ['SIGN IN', 'glyphicon glyphicon-log-in']
 
 
     ]

@@ -1,8 +1,8 @@
 let dataArray = [
 				// data for login section
 		{ 		loginData: [
-                            'SIGN OUT',
-                            'SIGN IN'
+                            // 'SIGN OUT',
+                            // 'SIGN IN'
                             ]
     	}
 

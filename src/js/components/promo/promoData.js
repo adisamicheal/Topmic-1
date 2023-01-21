@@ -26,7 +26,7 @@ const promoData = [
       promoCardId: 3,
       title: "Middle School",
       description: "Recognizing individual differences and establishing clear learning pathways for all children is the key to optimizing educational opportunities and outcomes. At Winsome, middle years education focuses on educating the whole child, supporting our students to become creative and confident learners. Differentiation in the classroom promotes critical and creative thinking processing skills, while programs in spelling, reading, grammar and mathematics curriculum are well sequenced.",
-      imageLink: "./img/middle-school-photo.jpg",
+      imageLink: "./img/topmic8.jpeg",
       readMoreLink: "",
       imageDirection: "left"
     },

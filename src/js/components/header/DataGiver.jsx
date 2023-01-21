@@ -4,14 +4,14 @@ const dataArray = [
 		loginData: [
 			{
 				id: '1',
-				value: 'sign out',
-				styles: 'glyphicon glyphicon-log-out',
+				value: '',
+				styles: 'glyphicon',
 				addressValue: 'sign-out'
 			},
 			{
 				id: '2',
-				value: 'sign in',
-				styles: 'glyphicon glyphicon-log-in',
+				value: '',
+				styles: 'glyphicon',
 				addressValue: 'sign-in'
 			}
 		]

@@ -24,7 +24,7 @@ export default class Juniors extends React.Component {
          <div className= "box"></div>
          <div className="textimage">
          <div className="pdivs">        
-          <p>
+          {/* <p>
             At Topmic we believe in providing a dual approach to education which
             supports every child to become condent learners. For us, the quality of
             relationship developed with the child has a direct link to the eective practice
@@ -32,7 +32,7 @@ export default class Juniors extends React.Component {
             for themselves. We believe that if the teacher-child relationship is based on
             mutual respect, active listening and the sharing of knowledge and skills, the
             child’s capacity to learn and discover the world is enhanced.
-            </p>
+            </p> */}
             <p>
             We aim to make strong genuine connections with families
             to support the children's learning. We foster a shared sense of
