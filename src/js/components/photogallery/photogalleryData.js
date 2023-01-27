@@ -1,23 +1,23 @@
 const images = [
 	{
-		path: '../images/Hero.jpeg',
-		caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit',
+		path: '../images/topmic9.jpeg',
+		caption: 'Computer Laboratory',
 		key: 1
 	},
 	{
-		path: '../images/IMG_0224.JPG',
-		caption: 'sed do eiusmod tempor incididunt ut labore',
+		path: '../images/topmic4.jpeg',
+		caption: 'Graduation Day',
 		key: 2
 	},
 	{
-		path: '../images/IMG_0348.JPG',
+		path: '../images/topmic5.jpeg',
 		caption:
-			'quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+			'Cultural Day',
 		key: 3
 	},
 	{
-		path: '../images/IMG_9463.JPEG',
-		caption: 'deserunt mollit anim id est laborum.',
+		path: '../images/topmic6.jpeg',
+		caption: 'Cultural Day',
 		key: 4
 	}
 ];

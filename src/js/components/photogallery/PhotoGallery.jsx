@@ -22,7 +22,7 @@ const Gallery = () => (
         <div className="yellowBox" />
         <p className="photogalleryP">
           Explore our vibrant photo gallery and see the smiling faces of our
-          students as they learn, play, and grow at [school name]. From
+          students as they learn, play, and grow at Topmic. From
           classroom activities to field trips and special events, you will see the
           joy and engagement that fills our school every day.
         </p>
