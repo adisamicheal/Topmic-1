@@ -29,12 +29,7 @@ const Footer = () => (
         </div>
         <div className="column-text">
           <h4 className="footer-buttons">ADMISSIONS</h4>
-          <h4 className="footer-buttons">STAFF & FACULTY</h4>
           <h4 className="footer-buttons">NEWS/EVENTS</h4>
-        </div>
-        <div className="column-text">
-          <h4 className="footer-buttons">CAREERS</h4>
-          <h4 className="footer-buttons">RESOURCE CENTER</h4>
         </div>
         <div className="clear" />
       </div>

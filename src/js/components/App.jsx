@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import PropTypes from 'prop-types';
 import {
   BrowserRouter as Router,
-  // Link,
   Route,
   Switch
 } from 'react-router-dom';
 
 import Header from './header';
-// import HeroImage from './hero/HeroImage';
-// import Promo from './promo/Promo';
-// import Calender from './calender/Calender';
-// import Blog from './Whatshappen/Blog';
-// import Gallery from './gallery/Gallery';
 import Footer from './footer/Footer';
 import Home from './Home/Home';
 import Junior from './Junior/Junior';
 import Middle from './middle/Middle';
 import PhotoGallery from './photogallery/PhotoGallery';
-import Staff from './staff/Staff';
 import Achievers from './achievers/Achievers';
 import Events from './events/Events';
 import Contact from './contact/Contact';
@@ -48,7 +40,6 @@ class App extends Component {
             <Route exact path="/junior" component={Junior} />
             <Route exact path="/middle" component={Middle} />
             <Route exact path="/photo-galleries" component={PhotoGallery} />
-            <Route exact path="/staff" component={Staff} />
             <Route exact path="/annual-achievers" component={Achievers} />
             <Route exact path="/events" component={Events} />
             <Route exact path="/contact" component={Contact} />

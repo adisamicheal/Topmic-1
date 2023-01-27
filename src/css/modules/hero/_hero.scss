@@ -37,13 +37,10 @@
   background: url('../images/senior-page-img.jpg');
   @include page-img();
 }
-.staff-img {
-  background: url('../images/staff-page-img.jpg');
-  @include page-img();
-}
 .policies-img {
-  background: url('../images/policies-page-img.jpg');
+  background: url('../images/policies-page-img.webp');
   @include page-img();
+  background-size: cover;
 }
 .achievers-img {
   background: url('../images/achievers-page-img.jpg');

@@ -34,10 +34,4 @@ Home.propTypes = {
   getPromoAction: PropTypes.func.isRequired
 };
 
-// function mapStateToProps(state) {
-//   return {
-//     test: state.test
-//   };
-// };
-
 export default connect(null, { getPromoAction: actions.getPromoAction })(Home);

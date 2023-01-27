@@ -1,20 +1,12 @@
 import React from 'react';
 import { arrayOf, func, object, string } from 'prop-types';
 
-import ResponsiveLogin from './ResponsiveLogin';
 import ResponsiveNavSubMenu from './ResponsiveNavSubMenu';
 
 const ResponsiveNavbar = props => {
 	// console.log(props.data[1].dataNavbar); ##########
 	const { data, newClass, myFunc } = props;
-	const responsiveDataArrayLogin = [...data[0].loginData];
 	const responsiveDataArrayNavbar = [...data[1].dataNavbar];
-	const responsiveLogin = responsiveDataArrayLogin.reverse().map(item => {
-		return (
-			// /////// the array is being passed to the component for better results
-			<ResponsiveLogin key={Math.random()} data={item} />
-		);
-	});
 	const responsiveNavSubMenu = responsiveDataArrayNavbar
 		.reverse()
 		.map(item => {
@@ -53,9 +45,7 @@ const ResponsiveNavbar = props => {
 				onKeyPress={myFunc}
 				role="link"
 				tabIndex="0"
-			>
-				{responsiveLogin}
-			</div>
+			/>
 		</div>
 	);
 };

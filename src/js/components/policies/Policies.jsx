@@ -11,7 +11,7 @@ export default class Policies extends Component {
         <div id="policies-container">
           <div id="policies">
             <div className="wrapper">
-              <h3 className="policies-heading">Policies & Procedures</h3>
+              <h3 className="policies-heading">Admission Policies & Procedures</h3>
               <div className="box" />
               <p className="policies-paragraph">
                 Please find below all our policies for Topmic International Schools.

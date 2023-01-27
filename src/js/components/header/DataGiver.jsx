@@ -88,14 +88,8 @@ const dataArray = [
 				// /////////////////// dropDown options are given here////////////////
 				dropDownMenu: [
 					{
-						id: '1',
-						value: 'staff',
-						addressValue: 'staff',
-						styles: ''
-					},
-					{
 						id: '2',
-						value: 'policies',
+						value: 'admission process',
 						addressValue: 'policies',
 						styles: ''
 					}
