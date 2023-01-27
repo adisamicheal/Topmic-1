@@ -20,7 +20,7 @@ export default class App extends React.Component {
               We would like to extend a warm welcome to Topmic International School System
               and take a few moments to share our vision with you. We are a
               healthy, thriving educational community catering to students in
-              Childcare through to Year 10. The school has enjoyed a strong
+              Childcare through to Primary School. The school has enjoyed a strong
               academic achievement record, and an engaging, varied curriculum.
               The school’s co-curricular activities and unique programs all
               reinforce our desire to develop the whole child.
@@ -43,9 +43,7 @@ export default class App extends React.Component {
               So,if you are wanting to have every opportunity a private
               education offers, to explore and shone your child’s unique gifts,
               chances are, Topmic is a good for you. We invite you to visit us
-              on campus. Please call the ofﬁce or email
-              enrolments@winsome.edu.pk and we would be delighted to arrange a
-              time for you.
+              on campus.
             </p>
           </div>
           <div className="col1">

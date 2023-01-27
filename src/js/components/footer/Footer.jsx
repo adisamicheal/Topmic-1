@@ -24,8 +24,6 @@ const Footer = () => (
           <h4 className="footer-buttons">KG/PREP</h4>
           <h4 className="footer-buttons">NURSERY</h4>
           <h4 className="footer-buttons">PRIMARY</h4>
-          <h4 className="footer-buttons">COLLEGE</h4>
-
         </div>
         <div className="column-text">
           <h4 className="footer-buttons">ADMISSIONS</h4>

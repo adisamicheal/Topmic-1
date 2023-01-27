@@ -1,8 +1,8 @@
 const data = 
     {
         p1:{
-          heading:"Junior School",
-          text:"Kindergarten and Pre-primary education provides an important foundation for both brain development and instilling a child's life long love of learning. We have a holistic view of education and cater for the physical, creative, intellectual, emotional, social and spiritual domains of learning in our classrooms.",
+          heading:"KG & Nursery School",
+          text:"Kindergarten and Nursery education provides an important foundation for both brain development and instilling a child's life long love of learning. We have a holistic view of education and cater for the physical, creative, intellectual, emotional, social and spiritual domains of learning in our classrooms.",
           imageLink: "../image/junior1.jpg"
             },          
         p2:{

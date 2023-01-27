@@ -111,7 +111,7 @@ const dataArray = [
 					},
 					{
 						id: '2',
-						value: 'KG/Prep & Nursery',
+						value: 'KG & Nursery',
 						addressValue: 'junior',
 						styles: ''
 					},
@@ -119,12 +119,6 @@ const dataArray = [
 						id: '3',
 						value: 'Primary',
 						addressValue: 'middle',
-						styles: ''
-					},
-					{
-						id: '4',
-						value: 'College',
-						addressValue: 'senior',
 						styles: ''
 					}
 				]

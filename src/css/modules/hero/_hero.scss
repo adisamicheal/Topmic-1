@@ -22,8 +22,9 @@
   //box-sizing: border-box;
 }
 .ourschool-img {
-  background: url('../images/ourschool-page-img.jpg');
+  background: url('../images/school.jpeg');
   @include page-img();
+  background-size: cover;
 }
 .junior-img {
   background: url('../images/junior-page-img.jpg');
