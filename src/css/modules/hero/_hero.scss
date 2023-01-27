@@ -58,12 +58,9 @@
   background: url('../images/events-page-img.jpg');
   @include page-img();
 }
-.career-img {
-  @include page-img();
-  background: url('../images/career-page-img.jpg');
-}
 .contact-img {
   @include page-img();
-  background: url('../images/contact-page-img.jpg');
+  background: url('../images/contact-page-img.jpeg');
+  background-size: cover;
 }
 

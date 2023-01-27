@@ -36,21 +36,21 @@ const dataArray = [
 				]
 			},
 			// ////////////////// option values /////////////////////////////
-			{
-				id: '2',
-				value: 'career',
-				addressValue: 'career',
-				styles: 'career-header',
-				// /////////////////// dropDown options are given here////////////////
-				dropDownMenu: [
-					{
-						id: '1',
-						value: '',
-						addressValue: '',
-						styles: ''
-					}
-				]
-			},
+			// {
+			// 	id: '2',
+			// 	value: 'career',
+			// 	addressValue: 'career',
+			// 	styles: 'career-header',
+			// 	// /////////////////// dropDown options are given here////////////////
+			// 	dropDownMenu: [
+			// 		{
+			// 			id: '1',
+			// 			value: '',
+			// 			addressValue: '',
+			// 			styles: ''
+			// 		}
+			// 	]
+			// },
 			// ////////////////// option values /////////////////////////////
 			{
 				id: '3',

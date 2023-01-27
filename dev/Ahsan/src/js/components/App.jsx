@@ -5,11 +5,6 @@ import PropTypes from 'prop-types';
 import Header from './header/nav';
 import HeroImage from './hero/HeroImage';
 import Home from './Home/home';
-//import Promo from './promo/app';
-//import Calender from './calender/Calender';
-//import Blog from './Whatshappen/Blog';
-//import Gallery from './gallery/Gallery';
-import Career from './career/career';
 import Footer from './footer/Footer';
 import {BrowserRouter as Router,
         Link,
@@ -33,8 +28,6 @@ class App extends Component {
 
         <Switch>
         <Route exact path="/HOME" component={Home} />
-         <Route exact path="/CARREER" component={Career} />
-
          </Switch>
 
 

@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import Hero from '../hero/HeroImage';
 import Promo from '../promo/Promo';
 import Calender from '../calender/Calender';
-import Blog from '../Whatshappen/Blog';
 import Gallery from '../gallery/Gallery';
 import * as actions from '../../actions';
 
@@ -24,7 +23,6 @@ class Home extends Component {
         <Hero style={'hero-image'} />
         <Promo />
         <Calender />
-        <Blog />
         <Gallery />
       </div>
     );

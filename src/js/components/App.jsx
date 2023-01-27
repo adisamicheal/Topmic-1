@@ -26,7 +26,6 @@ import Contact from './contact/Contact';
 import Policies from './policies/Policies';
 import OurSchool from './ourschool/OurSchool';
 import Senior from './Senior/Senior';
-import SignIn from './signin/SignIn';
 import HR from './hr/HR';
 import Dashboard from './dashboard/Dashboard';
 
@@ -46,7 +45,6 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/sign-in" component={SignIn} />
             <Route exact path="/junior" component={Junior} />
             <Route exact path="/middle" component={Middle} />
             <Route exact path="/photo-galleries" component={PhotoGallery} />

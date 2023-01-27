@@ -33,7 +33,6 @@ export default class Footer extends React.Component{
 					<div className="col-md3">
 						<h1>POLICIES</h1>
 						<ul>
-							<li>CAREERS</li>
 							<li1>RESOURCECENTER</li1>
 						</ul>
 					</div>
