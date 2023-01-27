@@ -5,7 +5,7 @@ var PurifyCSSPlugin= require('purifycss-webpack');
 
 module.exports = {
   entry: [
-    'babel-polyfill'
+    'babel-polyfill',
     './src/js/index.jsx',
     './src/css/styles.scss'
   ],
